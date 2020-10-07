@@ -1,0 +1,290 @@
+
+
+.container {
+    position: relative;
+    width: 100%;
+    }
+
+.containerlogoplace {
+    position: relative;
+    width: 100%;
+}
+      
+.coverimage {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+
+.containerbioimage {
+    margin-left: 5%;
+    position: relative;
+    width: auto;
+    height: 400px;
+}
+
+.logoimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18%;
+    width: 20%;
+    height: auto;
+    }
+
+.logoimage2 {
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 4%;
+    width: 20%;
+    height: auto;
+}
+
+.heading {
+    display: block;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.gobackhome {
+    text-align: center;
+    justify-content: center;
+    line-height: 5px;      
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+    width: 100%;
+    height: auto;
+}
+      
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:  rgb(255,169,8);
+    background: linear-gradient(90deg, rgba(255,169,8,0.908000700280112) 39%, rgba(255,255,255,1) 79%, rgba(255,255,255,1) 100%);;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
+    }
+      
+.container:hover .overlay {
+    height: 100%;
+    }
+      
+.menu {
+    white-space: nowrap; 
+    color: black;
+    font-size: 60px;
+    position: absolute;
+    overflow: hidden;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    }
+
+.h2 {font-family: SF Mono;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap; 
+    color: black;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);}
+
+    .h2 a:hover {
+        background-color:whitesmoke;
+                color: black;
+                }
+      
+    .h2 a.active {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+
+.h3 {font-family: SF Mono;
+        font-weight: normal;
+        font-size: 30px;
+        text-align: center;
+        white-space: nowrap; 
+        color: black;
+        position: absolute;
+        overflow: hidden;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);}
+    
+        .h3 a:hover {
+            background-color:whitesmoke;
+                color: black;
+                }
+          
+        .h3 a.active {
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+
+.h4 {font-family: SF Mono;
+            font-weight: normal;
+            font-size: 30px;
+            text-align: center;
+            white-space: nowrap; 
+            color: black;
+            position: absolute;
+            overflow: hidden;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);}
+        
+            .h4 a:hover {
+                background-color:whitesmoke;
+                color: black;
+                }
+              
+            .h4 a.active {
+                background-color: rgb(255, 255, 255);
+                color: black;
+            }
+
+            #top, #bottom, #left, #right {
+                background: #444444;
+                position: fixed;
+                }
+                #left, #right {
+                    top: 0; bottom: 0;
+                    width: 15px;
+                    }
+                    #left { left: 0; }
+                    #right { right: 0; }
+                    
+                #top, #bottom {
+                    left: 0; right: 0;
+                    height: 15px;
+                    }
+                    #top { top: 0; }
+                    #bottom { bottom: 0; }
+
+h1 {font-family: Stolzl;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;}
+                    
+h6 {font-family: SF Mono;
+    font-size: 30px;
+    color: rgb(172, 142, 103);
+    text-align: center;}
+
+p {font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: center;}
+
+q {font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;}
+
+.fal {position: relative;
+    width: 100%;
+}
+    .fa {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+
+      #social #container {
+        text-align: center;
+      }
+      
+      #social #container ul {
+        float: center;
+      }
+      
+      #social #container ul li {
+        float: center;
+        padding-left: 0px;
+        list-style-type: none;
+      }
+
+      .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 50px;
+        height: 600px;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    background-color: DarkSalmon;
+    color: white; 
+    }

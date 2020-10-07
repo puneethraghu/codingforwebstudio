@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title> Music | Imagine Dragons</title>
+        
+        <link href="/Users/puneethr/Desktop/Activity 04/Activity 04.css" rel="stylesheet" type="text/css">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="top"></div>
+        <div id="bottom"></div>
+
+        <div class="containerlogoplace">
+            <img src="Images/Imagine-Dragons-Logo.png" alt="Imagine Dragons Logo" class="logoimage2"> 
+        </div>
+
+        <div class="gobackhome">
+            <a href="/Users/puneethr/Desktop/Activity 04/Activity 04.html"> <p > Go Back to Home </p> </a> 
+        </div>
+
+        <div class="heading"> 
+            <h6> Music </h6>
+            </div>
+
+            <style>
+                body {
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 20px;
+                }
+                
+                #myBtn {
+                  display: none;
+                  position: fixed;
+                  bottom: 20px;
+                  right: 30px;
+                  z-index: 99;
+                  font-size: 18px;
+                  border: none;
+                  outline: none;
+                  background-color:black;
+                  color: white;
+                  cursor: pointer;
+                  padding: 15px;
+                  border-radius: 4px;
+                }
+                
+                #myBtn:hover {
+                  background-color: #555;
+                }
+                </style>
+                
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                
+                <script>
+                var mybutton = document.getElementById("myBtn");
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
+                
+            </body>
